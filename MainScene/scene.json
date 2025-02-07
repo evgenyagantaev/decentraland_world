@@ -2,7 +2,7 @@
   "ecs7": true,
   "runtimeVersion": "7",
   "display": {
-    "title": "New Scene 3",
+    "title": "Main World Scene",
     "description": "Empty Scene Template",
     "favicon": "favicon_asset",
     "navmapThumbnail": ""
@@ -56,5 +56,8 @@
   "source": {
     "origin": "creator-hub",
     "projectId": "dbd74297-a1a0-4c1c-bd86-19562b677753"
+  },
+  "worldConfiguration": {
+    "name": "evgenyagantaev.eth"
   }
 }
