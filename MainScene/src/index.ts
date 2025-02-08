@@ -3,7 +3,8 @@ import { TimeManager } from './TimeManager'
 import { Vector3, Quaternion, Color3, Color4 } from '@dcl/sdk/math'
 import { Transform, GltfContainer, TextShape, Entity, MeshRenderer, MeshCollider, Material } from '@dcl/sdk/ecs'
 
-export function main() {
+export function main() 
+{
   // Accumulator for elapsed seconds
   let elapsed = 0
   const timeManager = new TimeManager()
@@ -16,7 +17,8 @@ export function main() {
   })
   TextShape.create(textEntity, {
     text: "This world is\nunder construction",
-    fontSize: 3
+    fontSize: 3,
+    textColor : Color4.create (1, 0, 0, 1)
   })
 
   // Create the calendar stone entity once at startup
